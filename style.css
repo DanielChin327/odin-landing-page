@@ -1,3 +1,7 @@
+*{
+  font-family: roboto, sans-serif;
+}
+
 .header{
   display: flex;
   font-size:15px;
@@ -100,4 +104,33 @@ font-size: 36px;
   border: 3px solid #3882f6;
   border-radius: 10px;
   margin: auto
+}
+
+.box-text{
+  font-size: 16px
+}
+
+.quote{
+  background: #e5e7eb;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px
+}
+
+.text-quote{
+  font-style: italic;
+  padding: 0;
+  margin:0
+}
+
+.quote-source{
+  display:block;
+  margin-block-start:1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: right;
 }
