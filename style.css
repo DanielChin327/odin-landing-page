@@ -12,12 +12,18 @@ h5{
 }
 .links{
   display:flex;
+  text-decoration: none;
+  color:white
 }
 
 ul{
   display:flex;
   list-style: none;
   gap: 25px;
+  color:white
+}
+
+.title{
   color:white
 }
 
@@ -39,25 +45,59 @@ p{
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  color:white
+}
+
+.hero{
+  display: flex;
+  justify-content:center;
+  padding: 48;
 }
 
 button{
   align-self: baseline;
   color:white;
   background-color: #3882F6;
-  padding: 6ps 32px;
+  padding: 8px;
   border: 2px solid #3882F6;
   border-radius: 8px;
-  font-weight: 700
+  font-weight: 700;
+  max-width: 100px
 }
+
 .logo-image{
   display:flex;
-  max-width:500px;
-  border: 2px solid #E5E7EB;
-  background-color:#E5E7EB;
+  background-color:gray;
+  color: white;
   justify-content:center;
   align-items: center;
-  align-self: stretch;
-  flex: 1;
+  width: 200px;
+}
+
+.middle-info{
+text-align:center;
+font-size: 36px;
+}
+
+.boxes{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  gap: 30px;
+
+}
+
+.column{
+  display:flex;
+  flex-basis:112px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.box{
+  min-width: 100px;
+  min-height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin: auto
 }
