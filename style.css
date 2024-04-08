@@ -134,3 +134,21 @@ font-size: 36px;
   font-weight: bold;
   text-align: right;
 }
+
+.sign-up{
+  display:flex;
+  flex-basis:100%;
+  padding: 60px 140px;
+  justify-content: center
+}
+
+.blue-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: #3882F6;
+  gap: 50px;
+  color:white;
+  padding: 20px 24px;
+  border-radius:10px
+}
